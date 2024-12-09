@@ -15,11 +15,11 @@ from .nodes.sm import *
 
 NODE_CLASS_MAPPINGS = {
     "IG Multiply":          IG_MultiplyNode,   
-    "IG Explorer":          IG_ExplorerNode,
+    #"IG Explorer":          IG_ExplorerNode,
     "IG Folder":            IG_Folder,      
-    "IG Load Image":        IG_LoadImage, 
-    "IG Load Images":       IG_LoadImagesFromFolder,
-    "IG Analyze SSIM":      IG_AnalyzeSSIM,
+    #"IG Load Image":        IG_LoadImage, 
+    #"IG Load Images":       IG_LoadImagesFromFolder,
+    #"IG Analyze SSIM":      IG_AnalyzeSSIM,
     "IG Int":               IG_Int,
     "IG Float":             IG_Float,
     "IG String":            IG_String,
@@ -36,11 +36,11 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "IG Multiply":          "🧮 IG Multiply",
-    "IG Explorer":          "🤖 IG Explorer",
+    #"IG Explorer":          "🤖 IG Explorer",
     "IG Folder":            "📂 IG Folder",
-    "IG Load Image":        "📂 IG Load Image",
-    "IG Load Images":       "📂 IG Load Images",
-    "IG Analyze SSIM":      "📉 Analyze SSIM",
+    #"IG Load Image":        "📂 IG Load Image",
+    #"IG Load Images":       "📂 IG Load Images",
+    #"IG Analyze SSIM":      "📉 Analyze SSIM",
     "IG Int":               "➡️ IG Int",
     "IG Float":             "➡️ IG Float",
     "IG String":            "➡️ IG String",
